@@ -8,9 +8,9 @@
 const archivesContext = {};
 
 !(function () {
-    document.addEventListener( "DOMContentLoaded", function () {
-        Object.values( archivesContext ).forEach( f => f() );
-    } );
+  document.addEventListener("DOMContentLoaded", function () {
+    Object.values(archivesContext).forEach(f => f());
+  });
 })();
 
 
